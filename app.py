@@ -1,4 +1,7 @@
 # Import necessary libraries
+import spacy
+import subprocess
+subprocess.run(["python", "-m", "spacy", "download", "en_core_web_sm"])
 import joblib
 import re
 import streamlit as st
