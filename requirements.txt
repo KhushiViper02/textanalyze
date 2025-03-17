@@ -1,5 +1,5 @@
 gensim==4.3.1  # Latest compatible version
-numpy==1.18.5
+numpy>=1.21.0
 wordcloud==1.8.0
 textblob==0.15.3
 nltk==3.5
